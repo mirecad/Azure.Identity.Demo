@@ -72,7 +72,7 @@ var credential = new new VisualStudioCodeCredential();
 
 Azure Visual studio extensions required you to be logged in to show your Azure resources. You need [Azure account extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-account) for this purpose. It providers various commands how to perform sign in. Just hit F1 and start typing "Azure Sign In". VisualStudioCodeCredential takes this identity and uses it for identity of our application during runtime.
 
-![visual studio code identity](https://github.com/mirecad/Azure.Identity.Demo/blob/master/Images/identityCode.jpg?raw=true)
+![visual studio code identity](https://github.com/mirecad/Azure.Identity.Demo/blob/master/Images/identityCode.JPG?raw=true)
 
 
 ### VisualStudioCredential
@@ -83,7 +83,7 @@ var credential = new new VisualStudioCredential();
 
 This option is very similar to the previous one. It differs only in the IDE and the way of providing credentials to it. In the "big" Visual studio you find the login form in Tools > Options > Azure service authentication.
 
-![visual studio identity](https://github.com/mirecad/Azure.Identity.Demo/blob/master/Images/identityStudio.jpg?raw=true)
+![visual studio identity](https://github.com/mirecad/Azure.Identity.Demo/blob/master/Images/identityStudio.JPG?raw=true)
 
 
 ### SharedTokenCacheCredential
